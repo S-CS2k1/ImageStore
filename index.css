@@ -1,5 +1,26 @@
-form{
-    display: flex;
+h1{
     text-align: center;
+}
+
+form{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
+}
+
+form input{
+    display: none;
+}
+
+form .dropBox{
+    padding: 0;
+    width: 12vw;
+    height: 20vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
